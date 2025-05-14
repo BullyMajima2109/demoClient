@@ -14,7 +14,7 @@ public class Client {
 
     private String fullName;
 
-    private String dni;
+    private String password;
 
     public int getIdClient() {
         return idClient;
@@ -32,11 +32,11 @@ public class Client {
         this.fullName = fullName;
     }
 
-    public String getDni() {
-        return dni;
+    public String getpassword() {
+        return password;
     }
 
-    public void setDni(String dni) {
-        this.dni = dni;
+    public void setpassword(String password) {
+        this.password = password;
     }
 }
